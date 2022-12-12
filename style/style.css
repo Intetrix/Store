@@ -1,0 +1,212 @@
+body {
+    margin:0px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 0px 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 30px 130px;
+}
+
+.header-link {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+    margin-left: 40px;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #cc3352;
+    transition: .5s ease;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+
+.primary-button {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    color: white;
+    background-color: #cc3352;
+    transition: .5s ease;
+}
+
+.autho-form {
+    text-decoration: none;
+    color: white;
+    transition: .5s ease;
+}
+
+.primary-button:hover,
+.primary-button:focus,
+.autho-form:hover {
+    color: black;
+}
+
+.main-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.search-window {
+    width: 700px;
+    height: 48px;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+
+.search-window::placeholder {
+    color: black;
+}
+
+.search-button {
+    width: 80px;
+    height: 48px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    color: white;
+    background-color: #cc3352;
+    transition: .5s ease;
+    margin-left: 10px;
+}
+
+.search-button:hover {
+    color: black;
+}
+
+.food-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.one-food-store {
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
+}
+
+.food-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.food-title {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.cost-food {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.authorization {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 54, 66, 0.9);
+    z-index: 3;
+    overflow-y: auto;
+    visibility: hidden;
+}
+
+.email-cont {
+    display: flex;
+    align-items: center;
+}
+
+.pass-cont {
+    display: flex;
+    align-items: center;
+}
+
+.log-butt {
+    position: relative;
+    left: 40px;
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    color: white;
+    background-color: #cc3352;
+    transition: .5s ease;
+    margin-top: 10px;
+}
+
+.log-butt:hover {
+    color: black;
+}
+
+.input-form {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+  background: white;
+  margin: 300px auto 300px;
+  cursor: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.input-form input {
+    margin: 0;
+  padding: 0;
+  width: 100%;
+  padding: 4px;
+}
+
+.input-form h4 {
+    margin-right: 5px;
+}
+
+.email-cont {
+    margin-top: 0;
+}
+
+.pass-cont {
+    margin-bottom: 0;
+}
