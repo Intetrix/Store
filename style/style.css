@@ -151,6 +151,10 @@ body * {
     visibility: hidden;
 }
 
+.authorization.active {
+    visibility: visible;
+}
+
 .email-cont {
     display: flex;
     align-items: center;
